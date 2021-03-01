@@ -17,3 +17,25 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Course Description
+Payment API study
+
+## Resources
+- Create users and accounts
+- Deposit
+- Withraw
+- Transactions
+
+## Dependencies used
+```
+defp deps do
+  [
+    # ...default deps
+    {:credo, "~>1.5", only: [:dev, :test], runtime: false},
+    {:bcrypt_elixir, "~> 2.0"},
+    {:decimal, "~>2.0"},
+    {:excoveralls, "~> 0.10", only: :test}
+  ]
+end
+```
